@@ -1,0 +1,16 @@
+{
+  "name": "javActor",
+  "version": "0.1.0",
+  "authors": ["boi123212321"],
+  "description": "Scrape data from xxx.xcity.jp",
+  "pluginEvents": ["actorCreated"],
+  "arguments": [
+    {
+      "name": "dry",
+      "type": "Boolean",
+      "required": false,
+      "default": false,
+      "description": "Whether to commit data changes"
+    }
+  ]
+}

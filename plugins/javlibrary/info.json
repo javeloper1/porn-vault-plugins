@@ -1,0 +1,16 @@
+{
+  "name": "javlibrary",
+  "version": "0.1.0",
+  "authors": ["boi123212321"],
+  "description": "Scrape data from javlibrary",
+  "pluginEvents": ["movieCreated"],
+  "arguments": [
+    {
+      "name": "dry",
+      "type": "Boolean",
+      "required": false,
+      "default": false,
+      "description": "Whether to commit data changes"
+    }
+  ]
+}
